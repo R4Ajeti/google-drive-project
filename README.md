@@ -18,27 +18,33 @@ git clone https://github.com/R4Ajeti/google-drive-streaming-link-generator
 cd google-drive-streaming-link-generator
 ```
 
+Run the program:
+```bash
+java JGDriveTest.java
+```
+
 Compile the Java class:
 
 ```bash
-javac src/main/java/DriveLinkConverter.java
+javac JGDriveTest.java
 ```
 
-Run the program:
+Run compiled version:
 
 ```bash
-java -cp src/main/java DriveLinkConverter "https://drive.google.com/file/d/1AbCdEfGhIjKlMn/view?usp=sharing"
+java -cp . JGDriveTest "https://drive.google.com/drive/u/0/folders/1sw4h9-GI5GQZSjvjo1Wi2b1siRCAUdC5"
 ```
-
 Replace the example URL with your actual Google Drive sharing link.
 
-**Running tests**
-
-Compile and run tests using JUnit (ensure JUnit is on your classpath):
+```bash
+java JGDriveTest.java <google-drive-url>
+```
+#### OUTPUT
 
 ```bash
-javac -cp .:junit-platform-console-standalone.jar src/test/java/DriveLinkConverterTest.java
-java -jar junit-platform-console-standalone.jar -cp src/test/java --scan-classpath
+Jun 27, 2025 8:06:00 PM JGoogleDriveStreamService loadFromCache
+INFO: Using cached link for 91ba79da0a30a1158ab13b857349941f.cache (cached 595 seconds ago)
+https://drive.google.com/uc?export=download&id=1sw4h9-GI5GQZSjvjo1Wi2b1siRCAUdC5
 ```
 
 ## Authors
