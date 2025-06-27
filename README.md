@@ -1,6 +1,16 @@
-# google-drive-streaming-link-generator
+*Generate a Google Drive Video Streaming Link from Any Shared URL*
 
-> This Java utility converts any Google Drive sharing link into a direct video streaming link. It simplifies the process of embedding or playing videos from Google Drive by generating a clean, streamable video URL from any shared file link.
+---
+
+[![Java Version](https://img.shields.io/badge/java-24-orange)](https://www.oracle.com/java/)
+[![JUnit](https://img.shields.io/badge/JUnit-5.9%2B-brightgreen)](https://junit.org/junit5/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+<a href="https://replit.com/@R4Ajeti/google-drive-streaming-link-generator" target="blank"><img align="center" src="experimental-resource/image/google-drive-link-generator.png" alt="r4ajeti"/></a>
+
+### 🚀 Google Drive Link Generator
+
+**google-drive-streaming-link-generator** is a Java utility that converts any Google Drive sharing link into a direct video streaming link. It simplifies the process of embedding or playing videos from Google Drive by generating a clean, streamable video URL from any shared file link.
 
 ## Built With
 
@@ -34,11 +44,13 @@ Run compiled version:
 ```bash
 java -cp . JGDriveTest "https://drive.google.com/drive/u/0/folders/1sw4h9-GI5GQZSjvjo1Wi2b1siRCAUdC5"
 ```
+
 Replace the example URL with your actual Google Drive sharing link.
 
 ```bash
 java JGDriveTest.java <google-drive-url>
 ```
+
 #### OUTPUT
 
 ```bash
@@ -54,7 +66,7 @@ https://drive.google.com/uc?export=download&id=1sw4h9-GI5GQZSjvjo1Wi2b1siRCAUdC5
 - Github: [@r4ajeti](https://github.com/r4ajeti)
 - Email: [Gmail](mailto:r4ajeti@gmail.com)
 - Twitter: [@r4ajeti](https://twitter.com/r4ajeti)
-- Linkedin: [linkedin](https://linkedin.com/in/r4ajeti)
+- LinkedIn: [linkedin](https://linkedin.com/in/r4ajeti)
 
 ## 🤝 Contributing
 
