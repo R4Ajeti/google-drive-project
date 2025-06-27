@@ -6,20 +6,10 @@
 [![JUnit](https://img.shields.io/badge/JUnit-5.9%2B-brightgreen)](https://junit.org/junit5/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-<!-- <a href="https://replit.com/@R4Ajeti/google-drive-streaming-link-generator" target="blank"><img align="center" src="experimental-resource/image/google-drive-link-generator.png" alt="r4ajeti"/></a> -->
+<a href="https://replit.com/@R4Ajeti/google-drive-streaming-link-generator" target="blank"><img align="center" src="experimental-resource/image/google-drive-link-generator.png" alt="r4ajeti"/></a>
 
 👉 [View code snippet on Carbon](https://carbon.now.sh/embed/EeosM6b1Qsyi5GpQHvtr)
 
-<iframe
-  src="https://carbon.now.sh/embed/EeosM6b1Qsyi5GpQHvtr"
-  style="width:1026px; height:354px; border:0; overflow:hidden; transform:scale(1);"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-
-<!-- <iframe
-  src="https://carbon.now.sh/embed/EeosM6b1Qsyi5GpQHvtr"
-  width="1026px" height="354px">
-</iframe> -->
 
 ### 🚀 Google Drive Link Generator
 
